@@ -20,38 +20,6 @@ public:
 		
 	}
 
-/*	int getColor(){
-		return color;
-	}
-	void setColor(int _color) {
-		color = _color;
-	}
-	
-	T getKey() {
-		return key;
-	}
-	void setKey(T _key) {
-		key = _key;
-	}
+	node<T>(int _color) : color(_color) {}
 
-	node getLeft() {
-		return left;
-	}
-	void setLeft(node _left) {
-		left = _left;
-	}
-
-	node getRight() {
-		return right;
-	}
-	void setRight(node _right) {
-		right = _right;
-	}
-
-	node getParent() {
-		return parent;
-	}
-	void setParent(node _parent) {
-		parent = _parent;
-	}*/
 };
